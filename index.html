@@ -3,10 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Apex</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Apex</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="legends.html">Legends</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="weapons.html">Weapons</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <header>
+          <h1>Apex Legends</h1>
+            <p>Apex Legends is a free-to-play battle royal game. Choose your legend, squad up with friends, and fight it out in the arena for that elusive champion status!</p>
+      </header>
+
+      <h2>Maps</h2>
+        <p>As of Season 8, there are three playable maps in Apex Legends: King's Canyon, World's Edge, and Olympus. Each map has unique features, terrain, and building styles.</p>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://media.contentapi.ea.com/content/dam/apex-legends/common/maps-page/apex-embed-image-maps-hub-kings-canyon.jpg" class="d-block w-100" alt="King's Canyon">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>King's Canyon</h5>
+                  <p>Once a simple settlement on the planet Solace, the island known as Kings Canyon didn't thrive until the IMC chose it as a hub for research and development. It housed an airbase, a water treatment plant, and a plethora of other facilities to support the IMC’s operations - operations like a highly classified project on the function of Phase tech, or a radical program to create a simulacra army powered by a single brain. But on the surface, Kings Canyon seemed like a simple IMC installation that, for all its faults, brought stability and jobs to Solace.
+
+                    To blow off steam, IMC soldiers stationed here would compete in gladiator-esque combat in an area they nicknamed 'Thunderdome'. Years later, when the Syndicate chose Kings Canyon as the site of their newest bloodsport, Thunderdome remained untouched - a tribute to the earliest known predecessor of the Apex Games. The island has undergone many changes since then - the Repulsor Tower was brought down by an unknown assailant, an explosion in an abandoned simulacra facility caused Thunderdome and Skulltown to collapse, and much of the island has been excavated under the watchful eye of the Syndicate. But no matter how it changes, it will always be the first home of the Apex Games.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://media.contentapi.ea.com/content/dam/apex-legends/common/maps-page/apex-embed-image-maps-hub-worlds-edge.jpg" class="d-block w-100" alt="World's Edge">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>World's Edge</h5>
+                  <p>A harsh planet beset by intense volcanic activity, Talos was once deemed uninhabitable, and only small luddite settlements took root there. However, it became a hotbed of IMC activity when a rare mineral compound was discovered beneath its surface. Heat-reducing towers were built to super-cool its natural lava flows to allow resource extraction - the facility that housed them was optimistically dubbed “New Dawn”, and the town of World’s Edge grew around it.
+
+                    Decades ago, an explosion in one of the towers covered the surrounding area in a lethal flash freeze. World’s Edge was abandoned, its only remaining inhabitants a small community of hunters who once spurned modern technology (but tentatively accepted it again under the guidance of their beloved local hero, Bloodhound). However, its ruins and the planet’s energy-rich soil drew the attention of two critical groups: the Mercenary Syndicate and Hammond Robotics. Today, World’s Edge is the second home of the Apex Games and a key operational center for Hammond Robotics, who installed the latest in modern mining technology - the Planet Harvester - to begin their own resource extraction.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://media.contentapi.ea.com/content/dam/apex-legends/common/maps-page/apex-embed-image-maps-hub-olympus.jpg" class="d-block w-100" alt="Olympus">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Olympus</h5>
+                  <p>Introduced in Season 7, Olympus is a city built on dreams. A utopia floating in clouds above Psamathe, it was once a place where the brightest minds in the Outlands could gather and exchange ideas, leading to breakthroughs in the sciences and arts. However, all dreams come to an end, and this one ended explosively: an accident in an experimental research facility led to the creation of the Phase Rift (a massive bubble of Phase energy), and the Outlands’ best and brightest quickly abandoned the city.
+
+                    However, Olympus itself was maintained by advanced computer systems, so it quickly found new buyers in the Outlands’ elite. For 40 years, it served as a lavish vacation spot with the Rift as a tourist attraction. Unfortunately, the Rift grew unstable overtime, and Olympus was fully evacuated six months ago. Now Hammond Robotics, with the support of the Mercenary Syndicate, has transformed Olympus into a new stage for the Apex Games – though why is anyone’s guess.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 </body>
 </html>
