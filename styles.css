@@ -1,0 +1,31 @@
+#kcText, #weText, #opText {
+    background-color: #b3ecff;
+    color: black;
+    border-radius: 25px;
+}
+#navbar {
+    background-color: #b3ecff;
+}
+td {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    vertical-align: top;
+    background-color: #b3ecff;
+    margin: 2px;
+    border-color: black;
+    border-width: 5px;
+}
+#squadh1 {
+    background-color: #ff99ff;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 25px;
+    color: white;
+}
+.squadp, .button, #message, .dropdown {
+    text-align: center;
+}
+#generate {
+    background-color: #b3ecff;
+}
